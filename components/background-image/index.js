@@ -16,7 +16,7 @@ function BackgroundImage() {
           <Image
             unoptimized
             src={forest}
-            alt={"TEST"}
+            alt={"Forest Image"}
             fill
           />
         </div>
