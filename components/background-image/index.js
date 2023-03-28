@@ -15,7 +15,9 @@ function BackgroundImage() {
           <div className={styles.websitePosterOverlay}></div>
           <Image
             unoptimized
-            src="forest/orman.jpg"
+            src="https://serkankaragoz.github.io/next-album-deploy/forest/orman.JPG" 
+            // TODO find aa better way to link the image.
+            // using relative path didn't work.
             alt={"Forest Image"}
             fill
           />
