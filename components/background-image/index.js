@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import styles from "./styles.module.css";
 
-import forest from '../../assets/orman.jpg';
+import forest from './forest/orman.jpg';
 
 function BackgroundImage() {
   
