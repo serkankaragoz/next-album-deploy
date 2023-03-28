@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import styles from "./styles.module.css";
 
-import forest from './forest/orman.jpg';
+//import forest from './forest/orman.jpg';
 
 function BackgroundImage() {
   
@@ -15,7 +15,7 @@ function BackgroundImage() {
           <div className={styles.websitePosterOverlay}></div>
           <Image
             unoptimized
-            src={forest}
+            src="forest/orman.jpg"
             alt={"Forest Image"}
             fill
           />
