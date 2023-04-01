@@ -2,8 +2,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .footer a {
     text-decoration: underline;
+}
+
+.nonOverlap{
+    position: relative;
 }

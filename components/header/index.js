@@ -3,6 +3,7 @@ import Link from "next/link";
 import {FaTree } from 'react-icons/fa';
 
 import styles from "./styles.module.css";
+import BackgroundImage from '../background-image';
 
 
 function Header() {
@@ -17,6 +18,8 @@ function Header() {
                 <Link href='/'>Ipsum</Link>
             </nav>
         </div>
+        <BackgroundImage/>
+        <br/>
     </header>
   );
 }

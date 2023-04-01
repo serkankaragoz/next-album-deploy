@@ -3,10 +3,9 @@ import styles from "./styles.module.css";
 
 function Footer() {
   return (
-    
-      <footer className={styles.footer}>This is Footer</footer>
-   
-    
+      <footer className={styles.footer}>
+        This is Footer
+      </footer>
   )
 }
 
