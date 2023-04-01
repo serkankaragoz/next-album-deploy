@@ -4,9 +4,11 @@
     gap: 24px;
     margin-top: 56px;
     margin-bottom: 56px;
+    background-size: contain;
   }
   
   .websitePoster {
+    object-fit: cover;
   }
   
   .websiteTitle {
